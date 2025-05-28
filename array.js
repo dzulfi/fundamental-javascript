@@ -14,6 +14,8 @@ angka.forEach(function(nama) {
 // dengan arrow function
 buah.forEach((item, index) => console.log(item, index))
 
+angka.forEach((nama) => console.log(nama))
+
 /**
  * map()
  */
