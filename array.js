@@ -33,3 +33,20 @@ let angkaGanjil = angka.filter(function(x) {
 })
 
 console.log(angkaGanjil)
+
+let name = [];
+
+name.push("ahmad");
+name.push("sinta", "bagus")
+
+// ubah data index
+name[0] = 'bagas'
+
+console.info(name)
+console.table(name)
+
+console.info(name[0])
+console.info(name.length)
+
+name.push(1,2,3,4,5)
+console.table(name)

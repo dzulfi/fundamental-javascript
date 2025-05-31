@@ -69,3 +69,18 @@ console.log("kapasitas mobil : " + mobil.mesin.kapasitas)
 for (let key in siswa) {
     console.log(key + " : " + siswa[key])
 }
+
+/**
+ * programmer zaman now
+ */
+
+const person = {}
+
+person["nama"] = "dzulfiqar zahid amirullah"
+person["umur"] = 24
+
+console.table(person)
+
+// akses property
+console.info(`jeneng : ${person.nama}`)
+console.info(`umr : ${person['umur']}`)
